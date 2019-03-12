@@ -1,0 +1,14 @@
+/* Sometime I may want to declare a property value in multiple ways to increase browser compatibility. */
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>
