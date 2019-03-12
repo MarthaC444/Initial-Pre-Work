@@ -1,0 +1,9 @@
+/* I can prove the body element exists by giving it a background color. */
+
+<style>
+
+body {
+  background-color: black;
+}
+
+</style>
