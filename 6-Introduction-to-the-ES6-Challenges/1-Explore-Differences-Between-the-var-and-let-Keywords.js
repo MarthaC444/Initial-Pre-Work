@@ -1,4 +1,4 @@
-// Declaring a variable with "let" only allows one variable by that name. Value cannot be changed elsewhere in the code.
+// Declaring with "let" creates an immutable variable within its scope. The value can't be changed elsewhere in the code.
 
 let catName;
 let quote;
